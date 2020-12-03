@@ -1,13 +1,57 @@
-body{
-    width:1vh;
-    min-width:1200px;    
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  min-width: 1200px;
+  border: 0;
+  margin-right:auto;
+  margin-left:auto;
 }
+
 header{
     background:#808000;
 }
 main{
-    background:#008080;
+    background:white;
 }
+
+.team {
+    width:100%;
+    border: 5px solid green;
+    border-radius: 25px;    
+}
+
+.photo_team {
+  width: 500px;
+  padding:50px;
+  height: auto;
+  max-width: 50%;
+  max-height: auto;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:200px;
+}
+
+.team_container {
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;  
+}
+
+.team_container p {
+  color:green; 
+  font-size: 20px; 
+  align:justify;
+}
+
+.team_description {
+  padding:50px;
+} 
+
 footer{
     background:#000080;
 }
