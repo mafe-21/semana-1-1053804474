@@ -15,7 +15,6 @@ body {
   margin-left:auto;
 }
 
-
 header {
   display: flex;
   flex-direction: column;
@@ -136,8 +135,42 @@ main{
   padding:20px;
 }
 
+.team {
+    width:100%;
+    border: 5px solid green;
+    border-radius: 25px;    
+}
+
+.photo_team {
+  width: 500px;
+  padding:50px;
+  height: auto;
+  max-width: 50%;
+  max-height: auto;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:200px;
+}
+
+.team_container {
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;  
+}
+
+.team_container p {
+  color:green; 
+  font-size: 20px; 
+  align:justify;
+}
+
+.team_description {
+  padding:50px;
+} 
+
 footer{
   width:100%;
     background:#000080;
 }
-
