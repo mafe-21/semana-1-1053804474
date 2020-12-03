@@ -1,0 +1,13 @@
+body{
+    width:1vh;
+    min-width:1200px;    
+}
+header{
+    background:#808000;
+}
+main{
+    background:#008080;
+}
+footer{
+    background:#000080;
+}
