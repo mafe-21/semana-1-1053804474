@@ -1,0 +1,198 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  min-width: 1200px;
+  border: 0;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: red;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 34, 36, 1) 0%,
+    rgba(28, 121, 9, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#banner {
+  width: 100%;
+  height: 400px;
+}
+
+.main-nav,
+.main-title {
+  width: 50%;
+}
+
+.main-title {
+  color: olive;
+  text-align: center;
+}
+
+.main-menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+header > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  object-fit: cover;
+}
+
+nav {
+  padding: 10px;
+}
+
+.main-item a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.main-item a:hover {
+  color: yellow;
+  font-size: 17px;
+}
+
+main{
+  width:100%;
+  background:white;
+}
+
+.services {
+    border: 5px solid green;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.services > div {
+  width: 100%;
+  padding: 2%;
+}
+
+.services > div > img {
+  width: 100%;
+  height: 70%;
+  max-width: 100%;
+  max-height: auto;
+  background:white;
+}
+
+.news {
+    border: 5px solid green;
+    border-radius: 25px;
+}
+
+.news_row {
+  width: 100%;
+  height:200px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.news_row > div {
+  width: 100%;
+  padding:2%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.news_row > div > img {
+  width: 50%;
+  height: 100%;
+  max-width: 50%;
+  max-height: auto;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:5px;
+}
+
+.new_description{
+  padding:20px;
+}
+
+.team {
+    width:100%;
+    border: 5px solid green;
+    border-radius: 25px;    
+}
+
+.photo_team {
+  width: 500px;
+  padding:50px;
+  height: auto;
+  max-width: 50%;
+  max-height: auto;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:200px;
+}
+
+.team_container {
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;  
+}
+
+.team_container p {
+  color:green; 
+  font-size: 20px; 
+  align:justify;
+}
+
+.team_description {
+  padding:50px;
+} 
+
+.footer{
+    width:100%;
+    height:auto;
+    background:#034523;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;  
+}
+
+.footer_section {
+    width:50%;
+    color:white;
+    font-size:10px;
+    padding:50px;
+}
+
+.footer_section a {
+  text-decoration: none;
+  color:yellow;
+}
+
+.footer_section a:hover {
+  text-decoration: underline;
+  color:olive;
+}
+
